@@ -1,12 +1,14 @@
-import CartaoVisita from './components/Teste.jsx';
-function App() {
+//Importação de Componentes
+import Card from "./components/Card/Card";
 
+//Importação de Ícones
 
-  return (
-    <>
-      <CartaoVisita/>
-    </>
-  )
+export default function App(){
+   return(
+      <>
+        <div>
+          <Card/>
+        </div>
+      </>
+   );
 }
-
-export default App
