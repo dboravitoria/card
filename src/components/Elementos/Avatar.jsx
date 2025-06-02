@@ -10,7 +10,7 @@ export default function Avatar() {
                 min-w-0 rounded-full
                 shadow-sm drop-shadow-[0_8px_12px_rgba(0,0,0,0.4)]
                 bg-blend-overlay
-                w-full
+                w-full my-6
                 aspect-square object-contain    
                 "/>
             </div>

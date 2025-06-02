@@ -11,6 +11,10 @@ export default {
         primary: '#C12727',
         secondary: '#040616',
         white: '#bdd5ea',
+        'blue-start': '#040616',
+        'blue-end': '#01030e',
+        'light-start': '#bdd5ea',
+        'light-end': '#89a7c2',
       },
       fontFamily: {
         primary: ["JetBrains Mono", 'monospace'],
@@ -19,8 +23,11 @@ export default {
       boxShadow: {
         'custom': '0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.6)',
       },
+      borderWidth: {
+        '1': '1px',
+      },
       animation: {
-        'typing': 'typing 2s steps(50, end) infinite, blink-caret 3s step-end infinite',
+        'typing': 'typing 3s steps(100, end) infinite, blink-caret 2s step-end infinite',
 
       },
       keyframes: {
