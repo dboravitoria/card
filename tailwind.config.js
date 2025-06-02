@@ -10,7 +10,7 @@ export default {
       colors: {
         primary: '#C12727',
         secondary: '#040616',
-        white: '#cbd5e1',
+        white: '#bdd5ea',
       },
       fontFamily: {
         primary: ["JetBrains Mono", 'monospace'],
@@ -18,6 +18,20 @@ export default {
       },
       boxShadow: {
         'custom': '0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.6)',
+      },
+      animation: {
+        'typing': 'typing 2s steps(50, end) infinite, blink-caret 3s step-end infinite',
+
+      },
+      keyframes: {
+        typing: {
+          '0%': { width: '0%' },
+          '100%': { width: '100%' },
+        },
+        'blink-caret': {
+          'from, to': { borderColor: 'transparent' },
+          '50%': { borderColor: '#C12727' },
+        },
       },
     },
   },
